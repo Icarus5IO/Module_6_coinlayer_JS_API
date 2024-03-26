@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		try {
 			// Directly insert your API key here
-			const apiKey = '3f79b8eee22d33dfc9e764108cb0312d';
+			const apiKey = 'Api_key';
 
 			const historicalData = await fetchHistoricalData(cryptocurrency, startDate, endDate, apiKey, fiatCurrency);
 			displayPriceAnalysisResults(historicalData);
